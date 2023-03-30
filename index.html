@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Equation Solver</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <nav class="header">
+                <h1>QUADRATIC EQUATION SOLVER</h1>
+            </nav>
+            <div class="math__details">
+                <div class="location">
+                    <button class="a__sign">+</button>
+                    <input type="number" placeholder="a" class="a_box" required>
+                    <span>x<sup>2</sup></span>
+                    <button class="b__sign">+</button>
+                    <input type="number" placeholder="b" class="b_box" required>
+                    <span>x</span> 
+                    <button class="c__sign">+</button>
+                    <input type="number" placeholder="b" class="c_box" required>
+                    <span> = y</span>
+                    <br>
+                    <p class="preview">ax<sup>2</sup> + bx + c</p>
+                    <p class="error__message hidden">Please enter all values correctly</p>
+                    <br>
+                </div>
+                <p class="solve_area">
+                    <button class="solve">SOLVE</button>
+                </p>
+                <p class="detail__two">
+                    <span>When y = 0</span><br>
+                    <span class="answer">x = _ _  or  x = _ _</span>
+                </p>
+            </div>
+        </section>
+    </header>
+    <script src="./script.js"></script>
+</body>
+</html>

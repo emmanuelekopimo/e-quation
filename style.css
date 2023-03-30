@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+header{
+    background-image: linear-gradient( rgba(4, 9, 20, 0.1), rgba(4, 9, 20, 1)), url(./wall.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.header{
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.math__details{
+    width: auto;
+    height: auto;
+    background: linear-gradient(319deg, rgb(0 139 63 / 89%), rgb(0 78 159 / 82%));
+    color: white;
+    display: block;
+    padding: 3rem;
+    border-radius: 2rem;
+    margin-top: 10rem;
+}
+
+.location input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    height: 3rem;
+    width: 3.5rem;
+    border-radius: 0.2rem;
+    padding-left: 0.2rem;
+    color: white;
+    font-size: 17px;
+    padding-right: 0.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.location input::placeholder{
+    font-size: 17px;
+    color: rgb(157, 157, 157);
+}
+
+.error__message{
+    color: rgb(212, 0, 0);
+    font-size: 19px;
+    text-align: center;;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.hidden{
+    opacity: 0%;
+}
+
+.city{
+    text-transform: capitalize;
+}
+
+.math__details button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 17px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.solve_area button{
+    width: 100%;
+}
+
+
+.degree{
+    font-size: 65px;
+}
+
+.weather__location{
+    font-size: 40px;
+}
+
+.detail__one{
+    line-height: 4rem;
+}
+
+.detail__two{
+    line-height: 2.5rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.preview {
+    font-size: 16pt;
+    text-align: center;
+}
+
+@media (max-width:800px) {
+    header{
+        background-image: linear-gradient( rgba(4, 9, 20, 0.1), rgba(4, 9, 20, 1)), url(./wall.jpg);
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .header{
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: absolute;
+    }
+    
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    
+    .math__details{
+        width: auto;
+        height: auto;
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+        display: block;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        margin-top: 10rem;
+        text-align: center;
+    }
+    .location{
+        display: block;
+    }
+    
+    .location input{
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 0.2rem;
+        padding-left: 0.1rem;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding-right: 0.1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .location input::placeholder{
+        font-size: 12px;
+        color: rgb(157, 157, 157);
+    }
+    
+    .error__message{
+        font-size: 12px;
+    }
+    
+    .math__details button{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 0.4rem;
+        border: none;
+        font-size: 18px;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .solve_area button{
+        height: rem;
+        width: 100%;
+        border-radius: 0.4rem;
+        border: none;
+        font-size: 16px;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .detail__two{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    
+    
+    .degree{
+        font-size: 40px;
+    }
+    
+     .weather__location{
+        font-size: 25px;
+    }
+    
+    .detail__one{
+        line-height: 2rem;
+    }
+    
+    .detail__two{
+        line-height: 2.5rem;
+        font-size: 17px;
+    }
+    
+    .bold{
+        font-weight: 700;
+    }
+    
+}
